@@ -37,7 +37,6 @@ public class Teachers {
     @Expose
     private String token;
 
-
     public String getPhone() {
         return phone;
     }
