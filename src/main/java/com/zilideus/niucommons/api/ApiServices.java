@@ -33,7 +33,7 @@ public interface ApiServices {
     @POST("record/add")
     Call<StatusAndMessage> addRecord(
             @Query("title") String title,
-            @Query("teacher_id") String teacher_id,
+            @Query("token") String token,
             @Query("subject") String subject,
             @Query("type") String type,
             @Query("note") String note,

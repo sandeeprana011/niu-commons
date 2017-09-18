@@ -33,7 +33,17 @@ public class Teachers {
     @SerializedName("profile_url")
     @Expose
     private String profile_url;
+    @SerializedName("token")
+    @Expose
+    private String token;
 
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
 
     public String getPhone() {
         return phone;
